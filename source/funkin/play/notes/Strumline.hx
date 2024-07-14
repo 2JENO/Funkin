@@ -135,7 +135,7 @@ class Strumline extends FlxSpriteGroup
     this.noteHoldCovers.zIndex = 40;
     this.add(this.noteHoldCovers);
 
-    this.noteSplashes = new FlxTypedSpriteGroup<NoteSplash>(0, 0, NOTE_SPLASH_CAP);
+    this.noteSplashes = new FlxTypedSpriteGroup<NoteSplash>(10, 10, NOTE_SPLASH_CAP);
     this.noteSplashes.zIndex = 50;
     this.add(this.noteSplashes);
 
